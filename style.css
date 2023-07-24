@@ -194,7 +194,7 @@ img {
 
  .preco-item {
    flex: 1;
-   border: 4px solid #F2E313;
+   border: 4px solid black;
    padding: 20px;
    margin: 10px;
  }
@@ -290,7 +290,7 @@ img {
    width: 8px;
    height: 30px;
    margin-right: 10px;
-   background: #F2E313;
+   background: black;
  }
 
  /*Newsletter*/ 
@@ -334,7 +334,7 @@ img {
    color: #7c7c7c;
    font-style: italic;
    font-family: 'Nunito';
-   border: 4px solid #BFA10B;
+   border: 4px solid black;
    background: transparent;
    padding: 10px;
    margin: 0px;
@@ -347,7 +347,7 @@ img {
    font-size: 2.25rem;
    font-weight: bold;
    text-transform: uppercase;
-   background: #BFA10B;
+   background: black;
    color: white;
    margin: 0px;
    cursor: pointer;
