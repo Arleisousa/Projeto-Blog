@@ -10,7 +10,9 @@
 
 body {
     font-family: "Nunito", Arial, Helvetica, sans-serif;
-    color: #222222;
+    background-color: white;
+    color: black;
+    font-weight: bold;
 }
 
 li {
@@ -27,7 +29,7 @@ img {
 }
 
 .superinfo-bg {
-    background-color: #163B75;
+    background-color: #470400;
     color: white;
 }
 
@@ -52,7 +54,7 @@ img {
 /*Menu*/
 
 .menu-bg {
-    background-color: #2F7BF5;
+    background-color: #E10A00;
 }
 
 .menu {
@@ -88,7 +90,7 @@ img {
  }
 
  .menu-nav a:hover {
-    color: darkblue;
+    color: #470400;
  }
 
  .introducao { 
@@ -102,8 +104,8 @@ img {
  /*Sobre*/ 
 
  .sobre {
-    border-top: 2px solid #163B75;
-    border-bottom: 2px solid #163B75;
+    border-top: 2px solid #C70A00;
+    border-bottom: 2px solid #C70A00;
     max-width: 960px;
     margin: 0 auto;
     padding: 60px 0;
@@ -177,4 +179,201 @@ img {
  .blue {
     color: blue;
     border-top: 8px solid blue;
+ }
+
+ /*preço*/
+
+ .preco {
+   background-color:#940700;
+   color: white;
+   padding: 60px;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: flex-end;
+ }
+
+ .preco-item {
+   flex: 1;
+   border: 4px solid #E10A00;
+   padding: 20px;
+   margin: 10px;
+ }
+
+ .preco-item h2 {
+   font-size: 3rem;
+   color: white;
+   font-weight: bold;
+   text-align: center;
+   margin-top: 20px;
+ }
+
+ .preco-item span {
+   max-width: 300px;
+   margin: 20px auto;
+   display: block;
+   font-size: 3rem;
+   text-align: center;
+   font-weight: bold;
+   padding: 10px 0 5px 0;
+ }
+
+ .preco-item sup {
+   font-size: 1.5rem;
+ }
+
+ .preco-item ul {
+   max-width: 300px;
+   margin: 20px auto;
+   font-size: 1.25rem;
+   font-style: italic;
+   color: white;
+ }
+
+ .preco-item li {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 10px;
+ }
+
+ .preco-item li::after {
+   content: '';
+   display: block;
+   width: 6px;
+   height: 6px;
+   background: #E10A00;
+   border-radius: 50%;
+ }
+
+ .preco-item a {
+   max-width: 300px;
+   display: block;
+   margin: 20px auto;
+   border: 4px solid;
+   color: white;
+   text-transform: uppercase;
+   font-weight: bold;
+   font-size: 2.25rem;
+   padding: 15px 0;
+   text-align: center;
+ }
+
+ /*Qualidade*/
+
+ .qualidade {
+   max-width: 960px;
+   margin: 60px auto;
+   display: flex;
+   flex-wrap: wrap;
+ }
+
+ .qualidade-item {
+   flex: 1 1 300px;
+   margin: 20px 10px;
+ }
+
+ .qualidade-item p {
+   font-size: 1.25rem;
+   line-height: 1.4;
+   color: #7c7c7c;
+ }
+
+ .qualidade-item h2 {
+   font-size: 2.25rem;
+   color: #a4a4a4;
+   margin-bottom: 20px;
+ }
+
+ .qualidade-item h2::before {
+   content: '';
+   display: inline-block;
+   width: 8px;
+   height: 30px;
+   margin-right: 10px;
+   background: #E10A00;
+ }
+
+ /*Newsletter*/ 
+
+ .newsletter {
+   background: #f7f7f7 ;
+   padding: 60px calc((100% - 960px)/2);;
+   display: flex;
+   flex-wrap: wrap;
+ }
+
+ .newsletter-info {
+   flex: 1 1 260px;
+   margin: 0 10px;
+ }
+
+ .newsletter-info h1 {
+   font-size: 3rem;
+   color: #a4a4a4;
+ }
+
+ .newsletter-info p {
+   font-size: 1.25rem;
+   font-style: italic;
+   max-width: 230px;
+   color: #7c7c7c;
+   margin-bottom: 10px;
+ }
+
+ .newsletter-form {
+   flex: 2 1 260px;
+   margin: 0 10px;
+   align-self: center;
+   display: flex;
+   flex-wrap: wrap;
+ }
+
+ .newsletter-form input {
+   flex: 3 1 200px;
+   font-size: 1.25rem;
+   color: #7c7c7c;
+   font-style: italic;
+   font-family: 'Nunito';
+   border: 4px solid #E10A00;
+   background: transparent;
+   padding: 10px;
+   margin: 0px;
+   border-radius: 0px;
+ }
+
+ .newsletter-form button {
+   flex: 1 1 200px;
+   font-family: 'Nunito';
+   font-size: 2.25rem;
+   font-weight: bold;
+   text-transform: uppercase;
+   background: #470400;
+   color: white;
+   margin: 0px;
+   cursor: pointer;
+   border: 0px;
+   padding: 15px;
+ }
+
+ @media (max-width: 600px) {
+   .newsletter-form button {
+      font-size: 1.5rem;
+   }
+   
+  
+ }
+
+ .footer {
+   display: flex;
+   background-color: #E10A00;
+   height: 200px;
+   align-items: center;
+
+ }
+
+ .footer p {
+   flex: 1;
+   text-align: center;
+   font-size: 2.25rem;
+   color: #940700;
  }
