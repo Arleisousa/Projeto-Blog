@@ -29,7 +29,7 @@ img {
 }
 
 .superinfo-bg {
-    background-color: #470400;
+    background-color: #0D0D0D;
     color: white;
 }
 
@@ -54,7 +54,7 @@ img {
 /*Menu*/
 
 .menu-bg {
-    background-color: #E10A00;
+    background-color: #BFA10B;
 }
 
 .menu {
@@ -90,7 +90,7 @@ img {
  }
 
  .menu-nav a:hover {
-    color: #470400;
+    color: black;
  }
 
  .introducao { 
@@ -104,8 +104,8 @@ img {
  /*Sobre*/ 
 
  .sobre {
-    border-top: 2px solid #C70A00;
-    border-bottom: 2px solid #C70A00;
+    border-top: 2px solid #BFA10B;
+    border-bottom: 2px solid #BFA10B;
     max-width: 960px;
     margin: 0 auto;
     padding: 60px 0;
@@ -184,7 +184,7 @@ img {
  /*preço*/
 
  .preco {
-   background-color:#940700;
+   background-color: #BFA10B;
    color: white;
    padding: 60px;
    display: flex;
@@ -194,7 +194,7 @@ img {
 
  .preco-item {
    flex: 1;
-   border: 4px solid #E10A00;
+   border: 4px solid #F2E313;
    padding: 20px;
    margin: 10px;
  }
@@ -241,7 +241,7 @@ img {
    display: block;
    width: 6px;
    height: 6px;
-   background: #E10A00;
+   background: #F2E313;
    border-radius: 50%;
  }
 
@@ -290,7 +290,7 @@ img {
    width: 8px;
    height: 30px;
    margin-right: 10px;
-   background: #E10A00;
+   background: #F2E313;
  }
 
  /*Newsletter*/ 
@@ -334,7 +334,7 @@ img {
    color: #7c7c7c;
    font-style: italic;
    font-family: 'Nunito';
-   border: 4px solid #E10A00;
+   border: 4px solid #BFA10B;
    background: transparent;
    padding: 10px;
    margin: 0px;
@@ -347,7 +347,7 @@ img {
    font-size: 2.25rem;
    font-weight: bold;
    text-transform: uppercase;
-   background: #470400;
+   background: #BFA10B;
    color: white;
    margin: 0px;
    cursor: pointer;
@@ -365,7 +365,7 @@ img {
 
  .footer {
    display: flex;
-   background-color: #E10A00;
+   background-color: #BFA10B;
    height: 200px;
    align-items: center;
 
@@ -375,5 +375,5 @@ img {
    flex: 1;
    text-align: center;
    font-size: 2.25rem;
-   color: #940700;
+   color: black;
  }
